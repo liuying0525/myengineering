@@ -1,0 +1,181 @@
+*{
+    margin:0;
+    padding:0;
+}
+html,body{
+    width: 100%;
+    height:100%;
+    overflow: hidden;
+}
+#main{
+    width: 640px;
+    height:960px;
+    position: absolute;
+    left: 50%;
+    top:0;
+    margin-left: -320px;
+    transform-origin: top;
+    -webkit-transform-origin: top;
+}
+#list li{
+    width: 100%;
+    height:100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#list li:nth-child(1){
+    background:#F2FFD0 url("../images/b.png");
+    background-size: 640px 960px;
+}
+#list li:nth-child(2){
+     background: url("../images/c.jpg");
+
+ }
+#list li:nth-child(3){
+    background:url("../images/d.png");
+}
+#list li:nth-child(4){
+    background:url("../images/e.jpg");
+
+}
+
+.zIndex{
+    z-index: 5;
+}
+.a1{
+    position: absolute;
+    bottom: 10%;
+    font-size: 30px;
+    color: #000;
+    width: 100%;
+
+}
+.a1 p:nth-child(even){
+    transform: translate(400px,0);
+    -webkit-transform: translate(500px,0);
+    margin-left: 320px;
+    margin-top: 60px;
+}
+.a1 p:nth-child(odd){
+    transform: translate(-500px,0);
+    -webkit-transform: translate(-500px,0);
+    margin-left: 100px;
+}
+#a1 p{
+    transform: translate(0,0);
+    -webkit-transform: translate(0,0);
+    transition:1s;
+    -webkit-transition:1s;
+    width: 50%;
+}
+.a2{
+    position: absolute;
+    font-size: 30px;
+    color:cornflowerblue;
+    width: 100%;
+    text-align: center;
+}
+.a2 p:nth-child(even){
+    transform: translate(500px,0);
+    -webkit-transform: translate(500px,0);
+    position: absolute;
+    left:150px;
+    top: 600px;
+}
+.a2 p:nth-child(odd){
+    transform: translate(-500px,0);
+    -webkit-transform: translate(-500px,0);
+    position: absolute;
+    left:350px;
+    top:600px;
+}
+.a2 p{
+    width: 50%;
+    overflow: hidden;
+}
+#a2 p{
+    transform: translate(0,0);
+    -webkit-transform: translate(0,0);
+    transition:1s;
+    -webkit-transition:1s;
+
+
+}
+.a2 p span{
+    float: left;
+    display: inline-block;
+    font-weight: bold;
+    width: 100%;
+    text-align: left;
+}
+.a2 p.photo{
+    transform: translate(0,-800px);
+    -webkit-transform: translate(0,-800px);
+    position: absolute;
+    top:200px;
+    left: 150px;
+}
+
+.a3 p{
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    left:50%;
+    top:50%;
+    margin-left: -45px;
+    margin-top: -45px;
+    background-size: cover;
+}
+.a3 p:nth-child(1){
+    background: url(../images/c1.png) no-repeat;
+}
+.a3 p:nth-child(2){
+    background: url(../images/c2.png) no-repeat;
+}
+.a3 p:nth-child(3){
+    background: url(../images/c3.png) no-repeat;
+}
+
+.a3 p:nth-child(4){
+    background: url(../images/c4.png) no-repeat;
+}
+
+.a3 p:nth-child(5){
+    background: url(../images/c5.png) no-repeat;
+}
+.a3 p:nth-child(6){
+    background: url(../images/c6.png) no-repeat;
+}
+#a3 p:nth-child(1){
+    left: 50%;
+    top: 30%;
+}
+#a3 p:nth-child(2){
+    left: 20%;
+    top: 40%;
+}
+#a3 p:nth-child(3){
+    left: 80%;
+    top: 40%;
+}
+#a3 p:nth-child(4){
+    left: 20%;
+    top: 60%;
+}
+#a3 p:nth-child(5){
+    left: 80%;
+    top: 60%;
+}
+#a3 p:nth-child(6){
+    left: 50%;
+    top: 70%;
+}
+#a3 p {
+    transform:rotate(720deg);
+    -webkit-transform:rotate(720deg);
+    transition: 1s;
+    -webkit-transition: 1s;
+}
